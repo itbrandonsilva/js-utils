@@ -189,6 +189,9 @@ function FindPath (board, startX, startY, endX, endY, impassable) {
     return null;
 };
 
+
+/* Uncomment to test.
+
 var impassableTerrain = [1];
 var TestBoard = [
     [0, 0, 0, 0], 
@@ -200,3 +203,5 @@ var TestBoard = [
 var path = FindPath(TestBoard, 0, 0, 3, 0, impassableTerrain);
 if (path) console.log(JSON.stringify(path, null, 2));
 else console.log("No path was found.");
+
+*/
