@@ -125,7 +125,7 @@ function FindPath (board, startX, startY, endX, endY, impassable) {
                 tile = null;
                 for (var i = 0, l = ClosedList.length; i < l; ++i) {
                     if (ClosedList[i].id == tileParentId) {
-	                    tile = ClosedList[i];
+                        tile = ClosedList[i];
                         path.tilePath.push({ x: tile.x, y: tile.y });
                         break;
                     }
